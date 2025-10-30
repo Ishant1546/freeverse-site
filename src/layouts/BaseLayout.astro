@@ -1,0 +1,21 @@
+---
+import Navbar from '../components/Navbar.astro';
+import Footer from '../components/Footer.astro';
+const { title = "Freeverse Site", description = "Best Free Stuff Shop", pageTitle } = Astro.props;
+---
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>{pageTitle ? `${pageTitle} | Freeverse` : title}</title>
+    <link href="/assets/main.css" rel="stylesheet" />
+  </head>
+  <body class="bg-gray-900 text-white min-h-screen flex flex-col">
+    <Navbar />
+    <main class="flex-1 max-w-6xl mx-auto p-6">
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>

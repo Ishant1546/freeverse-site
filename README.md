@@ -1,23 +1,10 @@
-# 🌐 FreeVerse Site
+# Freeverse Site
 
-A modern Node.js website for **FreeVerse Vault** — showcasing Minecraft server plans, bot hosting, invite rewards, and free perks.
+A static site built with **Astro + TailwindCSS**, showcasing Freeverse services and rewards.
 
----
-
-## 🚀 Features
-- 🧠 Clean modular file structure  
-- 🖥️ Fast and mobile responsive design  
-- 💸 Lists all FreeVerse services (MC server plans, bots, etc.)  
-- ⚙️ Built with Node.js + Express  
-- 🌍 Ready to deploy on Netlify or Vercel  
-
----
-
-## 🛠️ Setup
-
+## 🚀 Commands
 ```bash
-# 1️⃣ Install dependencies
 npm install
-
-# 2️⃣ Run locally
-npm run dev
+npm run dev     # start local dev server
+npm run build   # build production files to /dist
+npm run preview # preview build locally
