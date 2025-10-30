@@ -1,0 +1,13 @@
+<% include('../layouts/base.ejs') %>
+<% layout('layouts/base', { pageTitle: 'Contact' }) %>
+<% body = `
+  <section>
+    <h2 class="text-3xl font-bold mb-3">Contact & Links</h2>
+    <div class="card">
+      <p class="small-muted">Join our Discord to claim items and get support:</p>
+      <a class="block mt-4 px-4 py-2 rounded-md bg-[#111827] hover:bg-[#0b1020]" href="${site.discordInvite}">${site.discordInvite}</a>
+      <p class="mt-4 small-muted">For business: contact@freeverse.example (replace with real mail)</p>
+    </div>
+  </section>
+` %>
+<%- body %>

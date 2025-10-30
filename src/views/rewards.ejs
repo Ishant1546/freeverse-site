@@ -1,0 +1,31 @@
+<% include('../layouts/base.ejs') %>
+<% layout('layouts/base', { pageTitle: 'Invite Rewards' }) %>
+<% body = `
+  <section>
+    <h2 class="text-3xl font-bold mb-3">Invite Rewards</h2>
+    <p class="small-muted mb-6">Invite Active Members To Earn Rewards — Rules Apply.</p>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div class="card">
+        <h3 class="text-xl font-bold">Minecraft Rewards</h3>
+        <p class="mt-2 small-muted">MCFA Tiers</p>
+        <ul class="mt-3">
+          <li>➡️ 3 Invites — 2× Mcfa [Temp]</li>
+          <li>➡️ 4 Invites — 3× Mcfa [Temp]</li>
+          <li>➡️ 7 Invites — Mcfa 4× [Temp]</li>
+          <li>➡️ 9 Invites — Mcfa Lifetime</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3 class="text-xl font-bold">Premium Content</h3>
+        <ul class="mt-3">
+          <li>➡️ 15 Invites — Premium Plugins Pack</li>
+          <li>➡️ 20 Invites — Exclusive Maps Bundle</li>
+          <li>➡️ 25 Invites — Premium Configs Pack</li>
+          <li>➡️ 30 Invites — Full Scripts Collection</li>
+          <li>➡️ 40 Invites — Custom Server Setup</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+` %>
+<%- body %>

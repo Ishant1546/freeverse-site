@@ -1,0 +1,19 @@
+<% include('../layouts/base.ejs') %>
+<% layout('layouts/base', { pageTitle: 'Services' }) %>
+<% body = `
+  <section>
+    <div class="mb-6">
+      <h2 class="text-3xl font-bold">Services</h2>
+      <p class="small-muted">All Services We Offer</p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      ${services.map(s => `
+        <div class="card">
+          <h3 class="text-xl font-bold">${s.icon} ${s.title}</h3>
+          <p class="mt-2 text-gray-300">${s.desc}</p>
+        </div>
+      `).join('')}
+    </div>
+  </section>
+` %>
+<%- body %>

@@ -1,0 +1,25 @@
+<% include('./layouts/base.ejs') %>
+<% layout('layouts/base', { pageTitle: 'Home' }) %>
+
+<% body = `
+  <section class="grid grid-cols-1 md:grid-cols-2 gap-6">
+    <div class="card">
+      <h3 class="text-2xl font-bold">Welcome To ${site.title}</h3>
+      <p class="small-muted mt-2">${site.tagline}</p>
+      <ul class="mt-4 space-y-2">
+        <li>🔐 Free Resources & Daily Drops</li>
+        <li>🧩 Plugins, Maps, Configs, Scripts</li>
+        <li>🤖 Bot & Hosting Plans</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3 class="text-xl font-bold">Quick Links</h3>
+      <div class="mt-4 space-y-2">
+        <a class="block p-3 rounded-md bg-[#0f1724] hover:bg-[#121827]" href="/plans">Hosting Plans</a>
+        <a class="block p-3 rounded-md bg-[#0f1724] hover:bg-[#121827]" href="/services">Services</a>
+        <a class="block p-3 rounded-md bg-[#0f1724] hover:bg-[#121827]" href="/rewards">Invite Rewards</a>
+      </div>
+    </div>
+  </section>
+` %>
+<%- body %>
