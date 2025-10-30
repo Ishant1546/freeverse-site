@@ -1,32 +1,4 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title><%= site.title %> • <%= pageTitle || '' %></title>
-  <link rel="icon" href="/assets/favicon.ico" />
-  <link href="/assets/main.css" rel="stylesheet" />
-</head>
-<body class="min-h-screen font-sans">
-  <header class="header-accent text-white p-6">
-    <div class="max-w-6xl mx-auto flex items-center gap-4">
-      <img src="<%= site.logo %>" alt="logo" class="h-12 w-12 rounded-md" />
-      <div>
-        <h1 class="text-2xl font-bold"><%= site.title %></h1>
-        <p class="text-sm opacity-80"><%= site.tagline %></p>
-      </div>
-      <div class="ml-auto">
-        <a href="<%= site.discordInvite %>" class="px-4 py-2 rounded-lg bg-white text-black font-semibold">Join Discord</a>
-      </div>
-    </div>
-  </header>
-
-  <main class="max-w-6xl mx-auto p-8">
-    <%- body %>
-  </main>
-
-  <footer class="border-t border-gray-800 p-6 text-center text-gray-400">
-    <%= site.footer %>
-  </footer>
-</body>
-</html>
+<div class="mb-6">
+  <h2 class="text-3xl font-extrabold text-white"><%= title %></h2>
+  <p class="small-muted mt-1"><%= subtitle %></p>
+</div>

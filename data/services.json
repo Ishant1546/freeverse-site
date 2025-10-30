@@ -1,7 +1,27 @@
-{
-  "title": "FreeVerse Vault",
-  "tagline": "Ultimate Giveaway Hub — Free Premium Resources, Daily Drops",
-  "logo": "/assets/logo.png",
-  "discordInvite": "https://dsc.gg/freestuffvault",
-  "footer": "FreeVerse Vault | Ultimate Giveaway Hub"
-}
+[
+  {
+    "title": "Minecraft Accounts",
+    "desc": "Verified premium and replacement Minecraft accounts (MCFA). Daily drops and lifetime rewards.",
+    "icon": "🎮"
+  },
+  {
+    "title": "Plugins & Configs",
+    "desc": "Premium plugins, server configs, and custom setups — perfect for any server owner.",
+    "icon": "🧩"
+  },
+  {
+    "title": "Server Setups",
+    "desc": "Prebuilt MC setups, world maps and ready-to-import packs.",
+    "icon": "🗺️"
+  },
+  {
+    "title": "Scripts & Bots",
+    "desc": "Useful scripts, bots and automation for Discord and Minecraft.",
+    "icon": "🤖"
+  },
+  {
+    "title": "Domains & Nitro",
+    "desc": "Cheap domains and occasional Nitro giveaways included in special drops.",
+    "icon": "🔑"
+  }
+]

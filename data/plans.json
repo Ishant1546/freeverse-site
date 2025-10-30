@@ -1,7 +1,78 @@
 {
-  "title": "FreeVerse Vault",
-  "tagline": "Ultimate Giveaway Hub — Free Premium Resources, Daily Drops",
-  "logo": "/assets/logo.png",
-  "discordInvite": "https://dsc.gg/freestuffvault",
-  "footer": "FreeVerse Vault | Ultimate Giveaway Hub"
+  "low": {
+    "title": "Low Performance Plans (Other Country Node)",
+    "note": "These Server Plans Are Not Released Yet — Stay Tuned!",
+    "plans": [
+      {
+        "name": "Starter Plan",
+        "price": "250K OwO / 15 Invites",
+        "ram": "2 GB",
+        "disk": "5 GB SSD",
+        "cpu": "50% Shared CPU",
+        "extras": ["Basic DDoS Protection", "24/7 Uptime"]
+      },
+      {
+        "name": "Advanced Plan",
+        "price": "550K OwO / 25 Invites",
+        "ram": "4 GB",
+        "disk": "10 GB SSD",
+        "cpu": "75% Shared CPU",
+        "extras": ["Premium DDoS Protection", "Free Subdomain", "24/7 Uptime"]
+      },
+      {
+        "name": "Pro Plan",
+        "price": "899K OwO / 45 Invites",
+        "ram": "6 GB",
+        "disk": "15 GB SSD",
+        "cpu": "1 vCore Dedicated CPU",
+        "extras": ["Advanced DDoS Protection", "Subdomain+SSL", "24/7 Uptime"]
+      },
+      {
+        "name": "Elite Plan",
+        "price": "1.5M OwO / 80 Invites",
+        "ram": "8 GB",
+        "disk": "20 GB SSD",
+        "cpu": "2 vCore Dedicated CPU",
+        "extras": ["Enterprise DDoS", "Free Domain+SSL", "Priority Support", "24/7 Uptime"]
+      }
+    ]
+  },
+  "high": {
+    "title": "High Performance Plans (India Node)",
+    "note": "These Server Plans Are Not Released Yet — Stay Tuned!",
+    "plans": [
+      {
+        "name": "Starter+ Plan",
+        "price": "₹49 Lifetime",
+        "ram": "2 GB",
+        "disk": "5 GB SSD",
+        "cpu": "50% Shared CPU",
+        "extras": ["Basic DDoS Protection", "24/7 Uptime"]
+      },
+      {
+        "name": "Advanced+ Plan",
+        "price": "₹119 Lifetime",
+        "ram": "4 GB",
+        "disk": "10 GB SSD",
+        "cpu": "75% Shared CPU",
+        "extras": ["Premium DDoS Protection", "Free Subdomain", "24/7 Uptime"]
+      },
+      {
+        "name": "Pro+ Plan",
+        "price": "₹199 Lifetime",
+        "ram": "6 GB",
+        "disk": "15 GB SSD",
+        "cpu": "1 vCore Dedicated CPU",
+        "extras": ["Advanced DDoS Protection", "Subdomain+SSL", "24/7 Uptime"]
+      },
+      {
+        "name": "Elite+ Plan",
+        "price": "₹399 Lifetime",
+        "ram": "8 GB",
+        "disk": "20 GB SSD",
+        "cpu": "2 vCore Dedicated CPU",
+        "extras": ["Enterprise DDoS", "Free Domain+SSL", "Priority Support", "24/7 Uptime"]
+      }
+    ]
+  }
 }
